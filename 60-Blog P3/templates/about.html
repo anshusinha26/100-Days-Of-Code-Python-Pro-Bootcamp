@@ -1,0 +1,44 @@
+<!-- header -->
+{% include 'header.html' %}
+    <!-- Page Header-->
+    <header
+      class="masthead"
+      style="background-image: url('static/assets/img/about-bg.jpg')"
+    >
+      <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-md-10 col-lg-8 col-xl-7">
+            <div class="page-heading">
+              <h1>About Me</h1>
+              <span class="subheading">This is what I do.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main Content-->
+    <main class="mb-4">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-md-10 col-lg-8 col-xl-7">
+            <p>
+                Hi there! My name is Anshu Sinha, and I am a full-stack web 
+                developer with expertise in Python and JavaScript programming 
+                languages. <br> <br> I also enjoy working with Unity for game development, 
+                Blender for 3D modeling, and video editing. My interest in Python 
+                has led me to delve into the fascinating world of Artificial 
+                Intelligence and Machine Learning, where I am currently working
+                 on building and refining models. <br> <br> When I am not coding, you can
+                  find me exploring new music as I am an avid audiophile. 
+                  With a passion for innovation and a love for technology, 
+                  I strive to bring creative solutions to every project I work on.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer-->
+    {% set year = current_year %}
+    {% include 'footer.html' %}
+  </body>
+</html>

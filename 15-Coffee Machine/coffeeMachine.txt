@@ -1,0 +1,31 @@
+# coffee requirements
+espresso = 50ml water, 18g coffee
+latte = 200ml water, 24g coffee, 150ml milk
+cappuccino = 250ml water, 24g coffee, 100ml milk
+
+# cost in dollars
+espresso = 1.5
+latte = 2.5
+cappuccino = 3.0
+
+# initial coffee machine products
+water = 300ml
+coffee = 100g
+milk = 200ml
+
+# american coins
+# note: 1 dollar = 100cents
+penny = 1cent
+nickel = 5cents
+dime = 10cents
+quarter = 25cents
+
+# program requirements
+1. print report i.e, how much water, milk and coffee is left after each coffee is made
+2. check if resources are sufficient to make another coffee
+3. process coins, i.e, check if coins provided are sufficient to make a coffee and also 
+    return the change
+4. check if transaction is successful
+5. make coffee and deduct resources
+
+

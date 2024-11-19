@@ -1,0 +1,20 @@
+# Ignore all .env files
+*.env
+
+# Ignore all __pycache__ directories
+__pycache__/
+
+# Ignore all virtual environment directories
+venv/
+*/venv/
+
+# Ignore IDE project files (e.g., PyCharm's .idea folder)
+.idea/
+*/.idea/
+
+# Ignore unnecessary system files
+.DS_Store
+Thumbs.db
+
+# Ensure the .gitignore file itself is not ignored
+!.gitignore
